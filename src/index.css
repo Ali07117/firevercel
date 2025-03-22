@@ -38,8 +38,9 @@ code {
   flex-direction: column;
   align-items: center;
 }
-.about-para-1, .about-para-2{
-  justify-content: center;
+.about-para-1, .about-para-2, .firefrenz-para{
+  justify-content: start;
+  padding-left: 15px;
 }
 }
 @media screen and (max-width: 800px){
@@ -74,6 +75,7 @@ code {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 40px;
+    gap: 0px;
   }
   .about-right, .firefrenz-wrapper{
     padding-left: 20px;
@@ -118,4 +120,11 @@ code {
   .cards-wrapper{
     gap: 10px;
   }
+  .letter-spacing{
+    letter-spacing: 1px;
+  }
+  .gif-img{
+    padding-top: 40px;
+  }
+  
 }
