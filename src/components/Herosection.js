@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 function Herosection() {
     return (
         <div className=''>
-            <div className='absolute w-[100%]'>
+            <div className='absolute z-[999] w-[100%]'>
                 <Navbar />
             </div>
             {/* <img src="/assets/hero.svg" alt="" /> */}
