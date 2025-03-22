@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Herosection from ".//components/Herosection";
+import Aboutus from './components/Aboutus';
+import Firefrenz from './components/Firefrenz';
+import Bottomimages from './components/Bottomimages';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='w-[100%] h-[100%] bg-[black]'>
+      <Herosection/>
+      <Aboutus/>
+      <Firefrenz/>
+      <Bottomimages/>
     </div>
+    </>
   );
 }
 
