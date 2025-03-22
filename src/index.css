@@ -82,14 +82,15 @@ code {
     padding-right: 20px;
   }
   .video{
-    height: 100%;
+    height: 360px;
     width: 100%;
+    object-fit: cover;
   }
   .about-heading, .firefrenz-heading{
-    font-size: 36px;
+    font-size: 32px;
   }
   .about-text, .firefrenz-text{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 19px;
   }
   .bottom-img{
